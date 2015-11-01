@@ -1,9 +1,92 @@
+@font-face{
+  font-family: Exo2Regular;
+  src: url(fonts/Exo2Regular/Exo2Regular.ttf);
+}
+@font-face{
+  font-family: Exo2Bold;
+  src: url(fonts/Exo2Bold/Exo2Bold.ttf);
+}
 html,body{
   padding: 0px;
   margin: 0px;
 }
 body{
   color: #fff;
+  font-family: Exo2Regular;
+  font-size: 12.03px;
+}
+h1{
+  font-family:  Exo2Bold;
+  font-size: 63.11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 35px 10px
+}
+h3{
+  margin: 120px 0 0 10px;
+  font-size: 34.42px; 
+}
+h2{
+  text-align: center;
+  font-size: 24px;  
+  margin: 0px;
+}
+p{
+  line-height: 24px;
+  font-size: 15.99px;
+  margin: 0px;
+}
+.about h2{
+  padding-top: 128px;  
+  font-family: Exo2Bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #318db6;
+}
+.about h2 span{
+    display: block;
+    width: 76px;
+    height: 3px;
+    background-color: #318db6;    
+    margin: 35px auto 0px auto;
+}
+.about p{
+    
+    
+    padding: 28px 63px 55px 58px;
+   
+    color: #2f2f2f;
+    text-align: center;
+}
+.about .details{
+  color: #000;  
+  display: inline-block;
+  padding: 17px 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-radius: 2px; 
+  cursor: pointer;  
+}
+.about .details img{
+  padding-left: 24px;
+}
+
+/*Страница со статистикаой*/
+.stat h2{
+  padding-top: 205px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 24px; 
+  font-weight: normal;
+  margin: 0px;
+}
+.stat p{
+  padding: 130px 25px 0px 10px;
+}
+.stat p img{  
+  padding-right: 10px;
+  float: left;
 }
 body>div:nth-child(1){
   background: url("images/bg_1.jpg") no-repeat;
@@ -18,14 +101,17 @@ body>div:nth-child(3){
   background-size: cover;
 }
 .wrapper{
-  max-width: 900px;
-  min-width: 900px;
+  max-width: 960px;
+  min-width: 960px;
   height: 100%;
   margin: 0 auto;
 }
 .logo{
-  background: url('images/logo.png') no-repeat 10% 50%;
-  height: 150px;
+  margin-top: 150px;
+  margin-left: 10px;
+  background: url('images/logo.png') no-repeat ;
+  height: 140px;
+  width: 310px;
 }
 .scroll{
   position: absolute;
@@ -41,30 +127,53 @@ nav a{
 }
 #menu{
   list-style-type: none;
-  padding: 10px 100px;
+  padding: 15px 80px;
   margin: 0px;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
 }
-#menu li{
+#menu>li{
+  text-transform: uppercase;
+  font-weight: bold;
   display: inline-block;
-  padding: 10px 10px 10px 0px;
-  border-bottom: transparent 3px solid;
+  padding: 9px 11px 9px 0px;
+  margin: 0px 9px;
+  border-bottom: transparent 2px solid;
 }
 #menu a{
   color: #fff;
 }
 #menu li.active{
-  border-bottom: #53AEFD 3px solid;
+  border-bottom: #53AEFD 2px solid;
 }
 .footer{
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
 }
+.two-columns{
+  padding: 160px 5px 0px 5px;
+  font-size: 15.99px;
+  color: #2f2f2f;
+  line-height: 36px;
+}
+.two-columns ul{
+  list-style-image: url("images/element 2.png");
+}
+.two-columns span{
+  font-size: 29.98px;
+  color: #318db6;
+}
 .two-columns>div{
-  width: 50%;
-  float: left;
+    width: 46%;    
+    display: inline-block;
+    vertical-align: top;
+}
+.two-columns>div:nth-child(1){
+  padding-right: 35px;
+}
+.two-columns>div:nth-child(2){
+  padding-left: 35px;
 }
 h4{
   text-align: center;
