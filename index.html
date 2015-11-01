@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>О фонде</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <div class="wrapper">
+      <nav>
+        <ul id="menu">
+          <li class="active"><a href="/">О фонде</a></li>
+          <li><a href="/">Поручительства</a></li>
+          <li><a href="/">Порядок представления</a></li>
+          <li><a href="/">Активы</a></li>
+          <li><a href="/">Банки и лизинг</a></li>
+          <li><a href="/">Конкурсы</a></li>
+        </ul>
+      </nav>
+      <div class="logo"></div>
+      <div class="main_title">
+        <h4>ооо "Гаранийный фонд Томской области"</h4>
+        <h1>Поручистельства малому и среднему бизнесу</h1>
+      </div>
+      <div class="scroll"></div>
+    </div>
+  </div>
+  <div>
+    <div class="wrapper">
+      <h2>О фонде</h2>
+      <p>Для развития своего бизнеса многим предпринимателям приходится привлекать заемные средства. Если имущества заемщика недостаточно для обеспечения кредита, то предприниматели обращаются за помощью в Гарантийный фонд Томской области, созданный в рамках областной программы поддержки малого и среднего бизнеса.</p>
+      <button class="details">Подробнее</button>
+      <div class="two-columns">
+        <div>
+          Гарантийный фонд предоставляет поручительства субъектам малого и среднего предпринимательства по:
+          <ul>
+            <li>кредитам,</li>
+            <li>банковским гарантиям,</li>
+            <li>договорам лизинга,</li>
+          </ul>
+          которые они привлекают в банках (лизинговых компаниях) для развития собственного бизнеса.
+        </div>
+        <div>
+          Размер поручительства, которое может представить Фонд - <span>до 70 %</span> от суммы кредита (банковской гарании, договора лизинга).
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+        <h4>За время работы гарантийного фонд а Томской области</h4>
+      <div class="statistics">
+        <figure>
+          <div class="circle"><span>226</span></div>
+          <p><span>Предпринимателя</span> из Томска и районов области получили поручительство</p>
+        </figure>
+        <figure>
+          <div class="circle"><span>774 млн.руб.</span></div>
+          <p><span>Поручительств</span> выдал фонд</p>
+        </figure>
+        <figure>
+          <div class="circle"><p>1 млрд. 873 млн.руб.</p></div>
+          <p><span>Кредитов</span> получили предпринимателя благодоря фонду</p>
+        </figure>
+      </div>
+    </div>
+  <div>
+    <h2>Контакты</h2>
+    <footer></footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    var height = window.innerHeight;
+    console.log("height",height);
+    $("body>div").each(function(i,e){
+      $(e).css({height: height})
+    });
+  </script>
+</body>
+</html>

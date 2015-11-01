@@ -1,0 +1,93 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  color: #fff;
+}
+body>div:nth-child(1){
+  background: url("images/bg_1.jpg") no-repeat;
+  background-size: cover;
+}
+body>div:nth-child(2){
+  background: url("images/bg_2.png") no-repeat 50% 0%;
+  background-size: auto 100%;
+}
+body>div:nth-child(3){
+  background: url("images/bg_3.jpg") no-repeat;
+  background-size: cover;
+}
+.wrapper{
+  max-width: 900px;
+  min-width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+.logo{
+  background: url('images/logo.png') no-repeat 10% 50%;
+  height: 150px;
+}
+.scroll{
+  position: absolute;
+  background: url('images/scroll.png') no-repeat 50% 50%;
+  height: 100px;
+  width: 50px;
+  top: 80%;
+  left: 50%;
+  margin-left: -25px;
+}
+nav a{
+  text-decoration: none;
+}
+#menu{
+  list-style-type: none;
+  padding: 10px 100px;
+  margin: 0px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+#menu li{
+  display: inline-block;
+  padding: 10px 10px 10px 0px;
+  border-bottom: transparent 3px solid;
+}
+#menu a{
+  color: #fff;
+}
+#menu li.active{
+  border-bottom: #53AEFD 3px solid;
+}
+.footer{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+.two-columns>div{
+  width: 50%;
+  float: left;
+}
+h4{
+  text-align: center;
+   padding: 10% 0% 5% 0%;
+   margin: 0;
+}
+figure{
+  width: 30%;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+figure .circle{
+  background: url("images/element.png") no-repeat 50% 50%;
+  height: 170px;
+  position: relative;
+  text-align: center;
+}
+figure .circle span{
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -25%;
+    width: 50%;*/
+}
