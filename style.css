@@ -1,92 +1,26 @@
 @font-face{
   font-family: Exo2Regular;
-  src: url(fonts/Exo2Regular/Exo2Regular.ttf);
+  src: url(Fonts/Exo2Regular/Exo2Regular.ttf);
 }
 @font-face{
   font-family: Exo2Bold;
-  src: url(fonts/Exo2Bold/Exo2Bold.ttf);
+  src: url(Fonts/Exo2Bold/Exo2Bold.ttf);
 }
 html,body{
   padding: 0px;
   margin: 0px;
 }
 body{
-  color: #fff;
+  color: #2f2f2f;
   font-family: Exo2Regular;
   font-size: 12.03px;
 }
-h1{
-  font-family:  Exo2Bold;
-  font-size: 63.11px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 35px 10px
+body>div{
+  height: 1024px;
+  min-width: 960px;
 }
-h3{
-  margin: 120px 0 0 10px;
-  font-size: 34.42px; 
-}
-h2{
-  text-align: center;
-  font-size: 24px;  
-  margin: 0px;
-}
-p{
-  line-height: 24px;
-  font-size: 15.99px;
-  margin: 0px;
-}
-.about h2{
-  padding-top: 128px;  
-  font-family: Exo2Bold;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #318db6;
-}
-.about h2 span{
-    display: block;
-    width: 76px;
-    height: 3px;
-    background-color: #318db6;    
-    margin: 35px auto 0px auto;
-}
-.about p{
-    
-    
-    padding: 28px 63px 55px 58px;
-   
-    color: #2f2f2f;
-    text-align: center;
-}
-.about .details{
-  color: #000;  
-  display: inline-block;
-  padding: 17px 28px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 1px solid #000;
-  border-radius: 2px; 
-  cursor: pointer;  
-}
-.about .details img{
-  padding-left: 24px;
-}
-
-/*Страница со статистикаой*/
-.stat h2{
-  padding-top: 205px;
-  padding-bottom: 100px;
-  text-align: center;
-  font-size: 24px; 
-  font-weight: normal;
-  margin: 0px;
-}
-.stat p{
-  padding: 130px 25px 0px 10px;
-}
-.stat p img{  
-  padding-right: 10px;
-  float: left;
+body>div:nth-child(odd) {
+    color: #fff;
 }
 body>div:nth-child(1){
   background: url("images/bg_1.jpg") no-repeat;
@@ -100,28 +34,137 @@ body>div:nth-child(3){
   background: url("images/bg_3.jpg") no-repeat;
   background-size: cover;
 }
-.wrapper{
-  max-width: 960px;
-  min-width: 960px;
-  height: 100%;
-  margin: 0 auto;
+h1{
+  font-family:  Exo2Bold;
+  font-size: 63.11px;
+  font-weight: bold;
 }
-.logo{
-  margin-top: 150px;
+h3{
+  margin: 120px 0 0 10px;
+  font-size: 34.42px;
+}
+h2{
+  text-align: center;
+  font-size: 24px;
+  margin: 0px;
+}
+p{
+  line-height: 24px;
+  font-size: 15.99px;
+  margin: 0px;
+}
+.main h1{
+  text-transform: uppercase;
+  margin: 33px 10px
+}
+.main .logo{
+  /*margin-top: 150px;*/
+  margin-top: 14.64%;
   margin-left: 10px;
   background: url('images/logo.png') no-repeat ;
   height: 140px;
   width: 310px;
 }
-.scroll{
-  position: absolute;
+.main .scroll{
   background: url('images/scroll.png') no-repeat 50% 50%;
   height: 100px;
   width: 50px;
-  top: 80%;
-  left: 50%;
-  margin-left: -25px;
+  margin: 150px auto 0px;
 }
+.about h2{
+  padding-top: 128px;
+  font-family: Exo2Bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #318db6;
+}
+.about h2 span{
+    display: block;
+    width: 76px;
+    height: 3px;
+    background-color: #318db6;
+    margin: 35px auto 0px auto;
+}
+.about p{
+
+
+    padding: 28px 63px 55px 58px;
+
+    color: #2f2f2f;
+    text-align: center;
+}
+.button{
+  padding: 17px 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: none;
+  font-family: Exo2Regular;
+  font-size: 12.03px;
+}
+.about .details{
+  padding: 17px 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 112px;
+  margin: 0 auto;
+}
+.about .details img{
+  padding-left: 24px;
+}
+.about .two-columns{
+  padding-top: 160px;
+  font-size: 15.99px;
+  line-height: 36px;
+}
+.about .two-columns ul{
+  list-style-image: url("images/element 2.png");
+}
+.about .two-columns span{
+  font-size: 29.98px;
+  color: #318db6;
+}
+.two-columns>div{
+    width: 45%;
+    margin: 0px 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.about .two-columns>div:nth-child(1){
+  padding-right: 35px;
+}
+.about .two-columns>div:nth-child(2){
+  padding-left: 35px;
+}
+
+/*Страница со статистикаой*/
+.stat h2{
+  padding-top: 205px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+}
+.stat .warning{
+  padding: 130px 25px 0px 10px;
+}
+.stat .warning img{
+  padding-right: 10px;
+  float: left;
+}
+
+.wrapper{
+  max-width: 960px;
+  min-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 nav a{
   text-decoration: none;
 }
@@ -151,52 +194,95 @@ nav a{
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
 }
-.two-columns{
-  padding: 160px 5px 0px 5px;
-  font-size: 15.99px;
-  color: #2f2f2f;
-  line-height: 36px;
-}
-.two-columns ul{
-  list-style-image: url("images/element 2.png");
-}
-.two-columns span{
-  font-size: 29.98px;
-  color: #318db6;
-}
-.two-columns>div{
-    width: 46%;    
-    display: inline-block;
-    vertical-align: top;
-}
-.two-columns>div:nth-child(1){
-  padding-right: 35px;
-}
-.two-columns>div:nth-child(2){
-  padding-left: 35px;
-}
+
 h4{
   text-align: center;
    padding: 10% 0% 5% 0%;
    margin: 0;
 }
-figure{
-  width: 30%;
+.statistics{
+  padding-top: 100px;
+}
+.statistics>div{
+  width: 33%;
   margin: 0px;
   display: inline-block;
   vertical-align: top;
 }
-figure .circle{
+.statistics>div p{
+  text-align: center;
+  padding: 20px 30px;
+}
+.statistics>div p span{
+  text-transform: uppercase;
+  display: block;
+}
+.statistics .circle{
   background: url("images/element.png") no-repeat 50% 50%;
   height: 170px;
   position: relative;
   text-align: center;
+  display: inline-table;
+  width: 100%;
 }
-figure .circle span{
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -14px;
-    margin-left: -25%;
-    width: 50%;*/
+.statistics .circle span{
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0px 35%;
+    font-weight: bold;
+}
+.feedback h3{
+  text-align: center;
+}
+.feedback .address{
+  text-align: center;
+}
+.feedback form label{
+  display: block;
+  padding: 10px;
+}
+
+.feedback .two-columns>div{
+  margin: 0 20px;
+  border-top: 1px solid #000;
+}
+.feedback form input, .feedback form textarea{
+  border: none;
+  width: 90%;
+}
+.feedback form div:nth-child(6){
+  width: 95%;
+  border-width: 3px;
+}
+.feedback form div:nth-child(7){
+  width: 95%;
+}
+.feedback form div:nth-child(7) label{
+  display: inline-block;
+}
+.feedback .button{
+  float: right;
+  margin-right: 25px;
+  width: 150px;
+}
+.feedback .notif{
+  margin: 0px 200px 0px 20px;
+  line-height: 50px;
+}
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+footer>*{
+  display: inline-block;
+}
+footer form{
+  width: 50%;
+}
+.feedback footer form label{
+  display: inline-block;
+}
+.feedback footer form input{
+  width: 60%;
 }

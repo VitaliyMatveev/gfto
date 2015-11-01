@@ -49,37 +49,85 @@
     <div class="wrapper">
       <h2>За время работы гарантийного фонда Томской области</h2>
       <div class="statistics">
-        <figure>
+        <div>
           <div class="circle"><span>226</span></div>
           <p><span>Предпринимателя</span> из Томска и районов области получили поручительство</p>
-        </figure>
-        <figure>
+        </div>
+        <div>
           <div class="circle"><span>774 млн.руб.</span></div>
           <p><span>Поручительств</span> выдал фонд</p>
-        </figure>
-        <figure>
-          <div class="circle"><p>1 млрд. 873 млн.руб.</p></div>
+        </div>
+        <div>
+          <div class="circle"><span>1 млрд. 873 млн.руб.</span></div>
           <p><span>Кредитов</span> получили предпринимателя благодоря фонду</p>
-        </figure>
+        </div>
       </div>
-      <p>
+      <p class="warning">
         <img src="images/element 1.png">
         Если предприятие перестало обслуживать свой кредит в банке, банк по истечении 3 месяцев может обратиться в Фонд о возмещении расходов за это предприятие. В пределах своей ответственности Фонд рассчитывается с банком и предъявляет регрессные требования предприятию.
       </p>
     </div>
   </div>
-  <div>
-    <h2>Контакты</h2>
-    <footer></footer>
+  <div class="feedback">
+    <div class="wrapper">
+      <h2>Контакты</h2>
+      <h3>ооо "Гаранийный фонд Томской области"</h3>
+      <p class="address">
+        Адрес: 634021, г. Томск, ул. Енисейская, д.37, оф. 308<br>
+        Телефон: (3822) 73-31-20<br>
+        E-mail: gf@gf-tomsk.ru
+      </p>
+      <form class="two-columns">
+        <div>
+          <label for="name">Контактное лицо</label>
+          <input id="name" name="name" required>
+        </div>
+        <div>
+          <label for="phone">Телефон</label>
+          <input id="phone" name="phone" type="phone">
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type= "email" required>
+        </div>
+        <div>
+          <label for="org_name">Название организации</label>
+          <input id="org_name" name="org_name" required>
+        </div>
+        <div>
+          <label for="org_address">Адрес организации</label>
+          <input id="org_address" name="org_address" required>
+        </div>
+        <div>
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <label for="attachment">Файл:</label>
+          <input id="attachment" type="file" name="attachment">
+        </div>
+        <button type="submit" class="button">Отправить</button>
+        <p class="notif">Поля отмеченные * обязательные для заполнения</p>
+
+      </form>
+      <footer>
+        <form>
+          <label for="search">Поиск</label>
+          <input id="search" name="search">
+        </form>
+        <div>
+          Адрес: 634021, г. Томск,<br>
+          ул. Енисейская, д.37, оф. 308
+        </div>
+        <div>
+          Телефон: (3822) 73-31-20<br>
+          E-mail: gf@gf-tomsk.ru
+        </div>
+      </footer>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript">
-    var height = window.innerHeight;
-    console.log("height",height);
-    $("body>div").each(function(i,e){
-      $(e).css({height: height})
-    });
-  </script>
+
 </body>
 </html>
