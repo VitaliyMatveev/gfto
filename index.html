@@ -3,34 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <title>О фонде</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">  
+  <link rel="stylesheet" type="text/css" href="960.css">
+  <!-- сброс дефолтных стилей браузера -->
+  <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
 <body>
-  <div class="main">
-    <div class="wrapper">
-      <nav>
-        <ul id="menu">
-          <li class="active"><a href="/">О фонде</a></li>
-          <li><a href="/">Поручительства</a></li>
-          <li><a href="/">Порядок представления</a></li>
-          <li><a href="/">Активы</a></li>
-          <li><a href="/">Банки и лизинг</a></li>
-          <li><a href="/">Конкурсы</a></li>
+<!-- заголово сайта -->
+  <div class="header">
+    <div class="container_12">
+      <!-- меню сайта -->
+      <div class="menu">
+        <ul class="lvl_one">
+          <li class="active"><a href="#">О фонде</a></li>
+          <li><a href="#">Поручительства</a>
+            <div class="lvl_two">
+              <ul>
+                <li><a href="#">Итоги 2010 года</a></li>
+                <li><a href="#">Итоги 2011 года</a></li>
+                <li><a href="#">Итоги 2012 года</a></li>
+                <li><a href="#">Итоги 2013 года</a></li>
+                <li><a href="#">Итоги 2014 года</a></li>
+                <li><a href="#">Состав наблюдательного совета</a></li>
+                <li><a href="#">Положение о закупках</a></li>
+                <li><a href="#">План закупок</a></li>
+                <li><a href="#">Рейтинги</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Порядок представления</a></li>
+          <li><a href="#">Активы</a>
+             <div class="lvl_two">
+               <ul>
+                <li><a href="#">Итоги 2010 года</a></li>
+                <li><a href="#">Итоги 2011 года</a></li>
+                <li><a href="#">Итоги 2012 года</a></li>
+                <li><a href="#">Итоги 2013 года</a></li>
+                <li><a href="#">Итоги 2014 года</a></li>
+                <li><a href="#">Состав наблюдательного совета</a></li>
+                <li><a href="#">Положение о закупках</a></li>
+                <li><a href="#">План закупок</a></li>
+                <li><a href="#">Рейтинги</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Банки и лизинг</a></li>
+          <li><a href="#">Конкурсы</a></li>
         </ul>
-      </nav>
-      <div class="logo"></div>
-      <h3>ооо "Гаранийный фонд Томской области"</h3>
-      <h1>Поручистельства малому и среднему бизнесу</h1>
-      <div class="scroll"></div>
+      </div>
+      <div class="logo grid_4"></div>
+      <h3 class="grid_12">ооо "Гаранийный фонд Томской области"</h3>
+      <h1 class="grid_12">Поручистельства малому и среднему бизнесу</h1>
+      <div class="scroll grid_2 prefix_5 suffix_5"></div>
     </div>
   </div>
+  <!-- О фонде -->
   <div class="about">
-    <div class="wrapper">
+    <div class="container_12">
       <h2>О фонде<span class="line"></span></h2>
-      <p>Для развития своего бизнеса многим предпринимателям приходится привлекать заемные средства. Если имущества заемщика недостаточно для обеспечения кредита, то предприниматели обращаются за помощью в Гарантийный фонд Томской области, созданный в рамках областной программы поддержки малого и среднего бизнеса.</p>
-      <div class="details">Подробнее <img src="images/element 3.png"></div>
-      <div class="two-columns">
-        <div>
+      <p class="grid_12">Для развития своего бизнеса многим предпринимателям приходится привлекать заемные средства. Если имущества заемщика недостаточно для обеспечения кредита, то предприниматели обращаются за помощью в Гарантийный фонд Томской области, созданный в рамках областной программы поддержки малого и среднего бизнеса.</p>
+      <div class="clear"></div>
+      <button class="button">Подробнее <img src="images/element 3.png"></button>
+      <div class="clear"></div>
+      <div class="details">
+        <div class="grid_6">
           Гарантийный фонд предоставляет поручительства субъектам малого и среднего предпринимательства по:
           <ul>
             <li>кредитам,</li>
@@ -39,95 +77,117 @@
           </ul>
           которые они привлекают в банках (лизинговых компаниях) для развития собственного бизнеса.
         </div>
-        <div>
+        <div class="grid_6">
           Размер поручительства, которое может представить Фонд - <span>до 70 %</span> от суммы кредита (банковской гарании, договора лизинга).
         </div>
-      </div>
+      </div>      
     </div>
   </div>
-  <div class="stat">
-    <div class="wrapper">
+  <!-- Показатели работы фонда -->
+  <div class="statistic">
+    <div class="container_12">
       <h2>За время работы гарантийного фонда Томской области</h2>
-      <div class="statistics">
-        <div>
+      <div class="indicators">
+        <div class="grid_4">
           <div class="circle"><span>226</span></div>
           <p><span>Предпринимателя</span> из Томска и районов области получили поручительство</p>
         </div>
-        <div>
+        <div class="grid_4">
           <div class="circle"><span>774 млн.руб.</span></div>
           <p><span>Поручительств</span> выдал фонд</p>
         </div>
-        <div>
-          <div class="circle"><span>1 млрд. 873 млн.руб.</span></div>
+        <div class="grid_4">
+          <div class="circle"><span>1 млрд.<br> 873 млн.руб.</span></div>
           <p><span>Кредитов</span> получили предпринимателя благодоря фонду</p>
         </div>
       </div>
-      <p class="warning">
-        <img src="images/element 1.png">
-        Если предприятие перестало обслуживать свой кредит в банке, банк по истечении 3 месяцев может обратиться в Фонд о возмещении расходов за это предприятие. В пределах своей ответственности Фонд рассчитывается с банком и предъявляет регрессные требования предприятию.
-      </p>
+      <div class="clear"></div>
+      <div class="warning">
+        <img src="images/element 1.png" class="grid_1">
+        <p class="grid_11">        
+          Если предприятие перестало обслуживать свой кредит в банке, банк по истечении 3 месяцев может обратиться в Фонд о возмещении расходов за это предприятие. В пределах своей ответственности Фонд рассчитывается с банком и предъявляет регрессные требования предприятию.
+        </p>
+      </div>
     </div>
   </div>
-  <div class="feedback">
-    <div class="wrapper">
+  <!-- Контакты организации -->
+  <div class="contacts">
+    <div class="container_12">
       <h2>Контакты</h2>
-      <h3>ооо "Гаранийный фонд Томской области"</h3>
-      <p class="address">
+      <p class="address"> <span>ооо "Гаранийный фонд Томской области"</span><br>
+        <br>
         Адрес: 634021, г. Томск, ул. Енисейская, д.37, оф. 308<br>
         Телефон: (3822) 73-31-20<br>
         E-mail: gf@gf-tomsk.ru
       </p>
-      <form class="two-columns">
-        <div>
+      <div class="clear"></div>
+      <!-- Форма обратной связи -->
+      <form class="feedback prefix_1 grid_10 suffix_1">
+        <div class="grid_5 alpha required">
           <label for="name">Контактное лицо</label>
           <input id="name" name="name" required>
         </div>
-        <div>
+        <div class="grid_5 omega">
           <label for="phone">Телефон</label>
           <input id="phone" name="phone" type="phone">
         </div>
-        <div>
+        <div class=" grid_5 alpha required">
           <label for="email">E-mail</label>
           <input id="email" name="email" type= "email" required>
         </div>
-        <div>
+        <div class=" grid_5 omega required">
           <label for="org_name">Название организации</label>
           <input id="org_name" name="org_name" required>
         </div>
-        <div>
+        <div class=" grid_5 alpha required">
           <label for="org_address">Адрес организации</label>
           <input id="org_address" name="org_address" required>
         </div>
-        <div>
+        <div class="grid_10 alpha required">
           <label for="message">Сообщение</label>
           <textarea id="message" name="message" required></textarea>
         </div>
-        <div>
+        <div class="grid_10 alpha">
           <label for="attachment">Файл:</label>
           <input id="attachment" type="file" name="attachment">
-        </div>
-        <button type="submit" class="button">Отправить</button>
-        <p class="notif">Поля отмеченные * обязательные для заполнения</p>
-
+        </div>        
+        <div class="form-footer grid_10 alpha">
+          <div class="grid_6 alpha">
+            <p class="notif">Поля отмеченные * обязательные для заполнения</p>
+          </div>
+          <div class="grid_4 omega">
+            <button type="submit" class="button">Отправить</button>
+          </div>  
+        </div>        
       </form>
-      <footer>
-        <form>
+      <div class="clear"></div>
+      <!-- Подвал сайта -->
+      <div class="footer">
+        <form class="prefix_1">
           <label for="search">Поиск</label>
           <input id="search" name="search">
         </form>
-        <div>
+        <div  class="prefix_1">
           Адрес: 634021, г. Томск,<br>
           ул. Енисейская, д.37, оф. 308
         </div>
-        <div>
-          Телефон: (3822) 73-31-20<br>
-          E-mail: gf@gf-tomsk.ru
+        <div class="suffix_1">
+          тел.: (3822) 71-31-20, 98-40-42<br>
+          e-mail: gf@gf-tomsk.ru
         </div>
-      </footer>
+      </div>
     </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+  <script type="text/javascript">
+  $(".menu a").on("click", function (e) {
+    console.log(this,e);
+    if($(e.currentTarget).parent().parent().hasClass("lvl_one")){
+      $(".lvl_one>li").removeClass("active");
+      $(this).parent().addClass("active");  
+    }        
+  })
+  </script>
 </body>
 </html>
