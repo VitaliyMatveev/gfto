@@ -1,10 +1,14 @@
 @font-face{
   font-family: Exo2Regular;
-  src: url(Fonts/Exo2Regular/Exo2Regular.ttf);
+  src:  url(Fonts/Exo2Regular/Exo2Regular.eot) format('eot'),
+        url(Fonts/Exo2Regular/Exo2Regular.woff) format('woff'),
+        url(Fonts/Exo2Regular/Exo2Regular.ttf) format('truetype');
 }
 @font-face{
   font-family: Exo2Bold;
-  src: url(Fonts/Exo2Bold/Exo2Bold.ttf);
+  src:  url(Fonts/Exo2Bold/Exo2Bold.eot) format('eot'),
+        url(Fonts/Exo2Bold/Exo2Bold.woff) format('woff'),
+        url(Fonts/Exo2Bold/Exo2Bold.ttf) format('truetype');
 }
 html,body{
   padding: 0px;
@@ -40,7 +44,7 @@ html h1{
   font-size: 63.11px;
   font-weight: bold;
 }
-html h3{  
+html h3{
   font-size: 34.42px;
 }
 html h2{
@@ -79,7 +83,7 @@ form textarea{
 .about,
 .statistic,
 .contacts{
-  height: 1024px;  
+  height: 1024px;
 }
 
 /* Основное меню */
@@ -92,7 +96,7 @@ form textarea{
 }
 .lvl_one{
   list-style-type: none;
-  padding: 0px 80px;  
+  padding: 0px 80px;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -100,8 +104,8 @@ form textarea{
 .lvl_one>li{
   text-transform: uppercase;
   font-weight: bold;
-  display: inline-block;  
-  margin: 0px 9px;  
+  display: inline-block;
+  margin: 0px 9px;
 }
 .lvl_one>li>a{
   display: inline-block;
@@ -114,7 +118,7 @@ form textarea{
 }
 .lvl_two{
   display: none;
-  position: absolute;  
+  position: absolute;
   margin-left: -20px;
 }
 .lvl_two ul{
@@ -144,7 +148,7 @@ form textarea{
   margin-top: 120px;
 }
 .header .logo{
-  margin-top: 150px;  
+  margin-top: 150px;
   margin-left: 10px;
   background: url('images/logo.png') no-repeat ;
   height: 140px;
@@ -152,13 +156,13 @@ form textarea{
 }
 .header .scroll{
   background: url('images/scroll.png') no-repeat 50% 50%;
-  height: 100px;  
+  height: 100px;
   margin-top: 150px;
 }
 
 /*Страница о фонде*/
 .about h2{
-  padding-top: 128px;  
+  padding-top: 128px;
 }
 .about h2 span{
   display: block;
@@ -173,8 +177,8 @@ form textarea{
   text-align: center;
 }
 
-.about .button{    
-  border-radius: 2px;    
+.about .button{
+  border-radius: 2px;
   margin: 50px auto 0px;
 }
 .about .button img{
@@ -211,20 +215,20 @@ form textarea{
   color: #fff;
 }
 .statistic h2{
-  padding-top: 205px;  
+  padding-top: 205px;
   text-transform: initial;
   font-weight: normal;
   color: #fff;
-  font-family: Exo2Regular;  
+  font-family: Exo2Regular;
 }
 .indicators{
-  padding-top: 100px;  
-  text-align: center;  
+  padding-top: 100px;
+  text-align: center;
 }
-.indicators>div{  
+.indicators>div{
   font-size: 16px;
 }
-.indicators>div p{  
+.indicators>div p{
   padding: 20px 5px;
 }
 .indicators>div p span{
@@ -244,7 +248,7 @@ form textarea{
   font-weight: bold;
   font-family: Exo2Bold;
   display: table-cell;
-  padding: 0px 30%;    
+  padding: 0px 30%;
 }
 .statistic .warning{
   padding-top: 130px;
@@ -261,8 +265,8 @@ form textarea{
 .contacts h2{
   padding-top: 105px;
 }
-.address{  
-  padding-top: 70px;  
+.address{
+  padding-top: 70px;
   text-align: center;
 }
 .address span{
@@ -279,7 +283,7 @@ form textarea{
   border-top: 1px solid #c9c9c9;
 }
 .feedback label{
-  display: block;  
+  display: block;
   font-size: 15.99px;
   padding: 20px 20px 5px;
 }
@@ -297,7 +301,7 @@ form textarea{
 .contacts #message{
   height: 90px;
 }
-.feedback div:nth-child(6){    
+.feedback div:nth-child(6){
   border-color: #242424;
   border-width: 3px;
 }
@@ -315,7 +319,7 @@ form textarea{
   width: 170px;
   margin: 0px 10px 0px auto;
   border-width: 2px;
-  font-size: 11.99px;  
+  font-size: 11.99px;
 }
 .feedback .form-footer .notif{
   padding-left: 20px;
