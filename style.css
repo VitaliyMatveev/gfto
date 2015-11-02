@@ -309,7 +309,7 @@ form textarea{
   display: inline-block;
 }
 .feedback #attachment{
-  width: initial;
+  width: 300px;
 }
 .feedback .form-footer{
   padding-top: 20px;
