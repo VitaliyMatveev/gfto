@@ -15,12 +15,9 @@ html body{
   font-family: Exo2Regular;
   font-size: 12.03px;
 }
-html body>div{
-  height: 1024px;
-  min-width: 960px;
-}
+
 html body>div:nth-child(odd) {
-    color: #fff;
+  color: #fff;
 }
 html body>div:nth-child(even){
   color: #5b5b5b;
@@ -76,6 +73,13 @@ form textarea{
   background: none;
   border: none;
   resize: none;
+}
+
+.header,
+.about,
+.statistic,
+.contacts{
+  height: 1024px;  
 }
 
 /* Основное меню */

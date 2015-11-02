@@ -180,14 +180,6 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript">
-  $(".menu a").on("click", function (e) {
-    console.log(this,e);
-    if($(e.currentTarget).parent().parent().hasClass("lvl_one")){
-      $(".lvl_one>li").removeClass("active");
-      $(this).parent().addClass("active");  
-    }        
-  })
-  </script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
