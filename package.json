@@ -1,6 +1,6 @@
 {
   "name": "gfto",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,6 @@
     "type": "git",
     "url": "https://vmatveev@bitbucket.org/vmatveev/gfto.git"
   },
-  "author": "",
+  "author": "Vitaliy Matveev",
   "license": "BSD-2-Clause"
 }
