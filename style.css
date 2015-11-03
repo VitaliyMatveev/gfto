@@ -44,10 +44,10 @@ html h1{
   font-size: 63.11px;
   font-weight: bold;
 }
-html h3{
+html h2{
   font-size: 34.42px;
 }
-html h2{
+html h3{
   text-align: center;
   font-size: 24px;
   margin: 0px;
@@ -144,7 +144,7 @@ form textarea{
   text-transform: uppercase;
   margin-top: 33px
 }
-.header h3{
+.header h2{
   margin-top: 120px;
 }
 .header .logo{
@@ -161,10 +161,10 @@ form textarea{
 }
 
 /*Страница о фонде*/
-.about h2{
+.about h3{
   padding-top: 128px;
 }
-.about h2 span{
+.about h3 span{
   display: block;
   width: 76px;
   height: 3px;
@@ -176,7 +176,6 @@ form textarea{
   color: #2f2f2f;
   text-align: center;
 }
-
 .about .button{
   border-radius: 2px;
   margin: 50px auto 0px;
@@ -214,7 +213,7 @@ form textarea{
 .statistic{
   color: #fff;
 }
-.statistic h2{
+.statistic h3{
   padding-top: 205px;
   text-transform: initial;
   font-weight: normal;
@@ -262,7 +261,7 @@ form textarea{
   position: relative;
   height: 100%;
 }
-.contacts h2{
+.contacts h3{
   padding-top: 105px;
 }
 .address{
@@ -278,18 +277,18 @@ form textarea{
 }
 .feedback{
   padding-top: 85px;
+  font-size: 15.99px;
 }
 .feedback>div{
   border-top: 1px solid #c9c9c9;
 }
 .feedback label{
   display: block;
-  font-size: 15.99px;
+  
   padding: 20px 20px 5px;
 }
 .feedback input,
-.feedback textarea{
-  font-size: 15.99px;
+.feedback textarea{  
   padding: 3px;
   width: 90%;
   margin: 0px 20px 5px;
